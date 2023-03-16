@@ -4,9 +4,7 @@
   >
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <!-- logo -->
-      <NuxtLink
-        to="/"
-      >
+      <NuxtLink to="/">
         <div class="flex items-center">
           <img
             src="~/assets/logo.png"
@@ -39,14 +37,16 @@
           class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
         >
           <li>
-            <NuxtLink to="/" class="block py-2 pl-3 pr-4 text-black md:p-0 hover:text-gray-500"
+            <NuxtLink
+              to="/"
+              class="block py-2 pl-3 pr-4 text-black md:p-0 hover:text-gray-500"
               >Translator</NuxtLink
             >
           </li>
           <li>
             <NuxtLink
               to="/about"
-              class="block py-2 pl-3 pr-4 text-black md:p-0  hover:text-gray-500"
+              class="block py-2 pl-3 pr-4 text-black md:p-0 hover:text-gray-500"
               >About</NuxtLink
             >
           </li>
