@@ -1,61 +1,7 @@
 <template>
-  <div class="h-screen bg-[url('~/assets/bg4.png')] bg-no-repeat bg-cover">
-    <nav
-      class="px-2 sm:px-4 py-2.5 dark:bg-gray-500 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-500"
-    >
-      <div
-        class="container flex flex-wrap items-center justify-between mx-auto"
-      >
-        <!-- logo -->
-        <div class="flex items-center">
-          <img
-            src="~/assets/logo.png"
-            class="mr-4 sm:h-11"
-            alt="Translateasy logo"
-          />
-          <span
-            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-            >Translateasyy</span
-          >
-        </div>
-        <!-- language -->
-        <div class="flex md:order-2">
-          <select
-            id="countries"
-            class="text-white hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-900 text-sm rounded-lg focus:ring-blue-200 focus:border-blue-100 block w-full p-2.5 dark:bg-blue-900 dark:hover:bg-blue-800 dark:focus:ring-blue-900"
-          > 
-          <!-- text-white hover:bg-blue focus:ring-4 focus:outline-none focus:ring-blue-900 font-medium rounded-lg text-base w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-900 dark:hover:bg-blue-800 dark:focus:ring-blue-900 -->
-            <option selected>Indonesia</option>
-            <option value="US">English</option>
-          </select>
-        </div>
-        <div
-          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-          id="navbar-sticky"
-        >
-          <ul
-            class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
-          >
-            <li>
-              <NuxtLink to="/" class="block py-2 pl-3 pr-4 text-white md:p-0"
-                >Translator</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink
-                to="/about"
-                class="block py-2 pl-3 pr-4 text-gray-400 md:p-0 md:dark:hover:text-white"
-                >About</NuxtLink
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <!-- isi -->
     <div
-      class="bg-white rounded-2xl container mx-auto translate-y-[14vh] shadow-2xl scroll-mt-40 "
+      class="bg-white rounded-2xl container mx-auto translate-y-[14vh] shadow-2xl scroll-mt-40"
     >
       <div class="mx-14 pt-6 font-inter grid grid-cols-3">
         <select
@@ -168,10 +114,6 @@
         </button>
       </div>
     </div>
-      <h2 class="pt-32 p-9 text-center text-black ">
-        ©️Translateasyy
-      </h2>
-  </div>
 </template>
 
 <script>
